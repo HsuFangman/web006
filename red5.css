@@ -1,0 +1,220 @@
+@charset utf-8;
+html{
+	min-height: 100%;
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	height: 100%;
+	font-family: "蘋果儷中黑", "Apple LiGothic", "Apple LiGothic Medium", "Microsoft JhengHei", "華康童童體","華康墨字體","微軟正黑體", sans-serif;
+}
+.background0{
+	background: #484891;	
+	height: 799px;
+	background-image: url(../img/back.png);
+    background-repeat: repeat;
+
+}
+.background{
+	width: 1280px;
+	height: 640px;
+	background: #FFF0AC;
+	background-image: url(../img/back.png);
+    background-repeat: repeat;
+	position: absolute;
+	top: 80px;
+	left: 150px;
+	margin: 0px auto;
+	box-shadow:1px 1px 30px 3px rgba(0,0,0,0.5);
+}
+.background2{
+	width: 1280px;
+	height: 640px;
+	background: #FFF0AC;
+	background-image: url(../img/back.png);
+    background-repeat: repeat;
+	position: absolute;
+	top: 80px;
+	left: 150px;
+	display: none; 
+}
+.r1{
+	width: 1280px;
+	height: 550px;
+	float:center;
+	margin: 0px auto;
+
+}
+.r1l-0{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	display: none;
+}
+.r1l{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	display: none;
+}
+.r1l-1{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	display: none;
+}
+.r1r{
+	width: 330px;
+	height: 350px;
+	float:right;
+	position: absolute;
+	top: 185px;
+	right: 120px;
+
+}
+.r1w1{
+	font-size: 19px;
+	text-align:left;
+	display: none;
+}
+.r1w2{
+	font-size: 19px;
+	text-align:left;
+	display: none;
+}
+.r1w3{
+	font-size: 19px;
+	text-align:left;
+	display: none;
+}
+.next{
+	position: absolute;
+	top: 250px;
+	left: 250px;
+	display: none;
+	
+}
+.next:hover{
+	left: 270px;
+}
+.r2{
+	width: 1280px;
+	height: 550px;
+	float:center;
+	margin: 0px auto;
+
+}
+.r2l{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	display: none; 
+	overflow:hidden;
+}
+.r2l-1{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	display: none; 
+	overflow:hidden;
+	
+}
+.r2l-2{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	display: none; 
+	overflow:hidden;
+	
+}
+.r2l-3{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	display: none; 
+	overflow:hidden;
+	
+}
+
+.r2r{
+	width: 380px;
+	height: 300px;
+	float:right;
+	position: absolute;
+	top: 300px;
+	right: 80px;
+
+}
+.r2w1{
+	font-size: 19px;
+	text-align:left;
+	display: none;
+}
+.r2w2{
+	font-size: 19px;
+	text-align:left;
+	display: none;
+}
+
+.cycle{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	position: absolute;
+	top: 460px;
+	left: 250px;
+
+}
+.cycle:hover{
+	box-shadow:1px 1px 50px 8px rgba(0,0,0,0.9);
+}
+.next2{
+	position: absolute;
+	top: 80px;
+	left: 300px;
+	display: none;
+	
+}
+.next2:hover{
+	left: 320px;
+}
+	.ph{
+	font-size: 20px;
+	color: #9D9D9D;
+	text-align:center;
+	}
+	.phone{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	position: fixed;
+	top: 640px;
+	right: 55px;
+	background: #4F4F4F;
+	}
+	.phone:hover{
+	background: #272727;
+	}

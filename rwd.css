@@ -1,0 +1,97 @@
+@charset utf-8;
+
+	html{
+		min-height: 100%;
+		height: 100%;
+	}
+	body {
+		margin: 0;
+		padding: 0;
+		min-height: 100%;
+		height: 100%;
+		font-family: "蘋果儷中黑", "Apple LiGothic", "Apple LiGothic Medium", "Microsoft JhengHei", "華康童童體","華康墨字體","微軟正黑體", sans-serif;
+	}
+	.background0r{
+		background: #FFF0AC;
+		width: 100%;	
+		height: 10500px;
+		background-image: url(../img/back.png);
+	    background-repeat: repeat;
+	    position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	.slognr{
+		font-size: 30px;
+		text-align:center;
+	}
+	.logor{
+		width: 500px;
+		height: 520px;
+		float:center;
+		border-radius: 100%;
+		margin: 0px auto;
+		padding-top: 20px
+	}
+	.logor2{
+		width: 200px;
+		height: 200px;
+		float:center;
+		border-radius: 100%;
+		margin: 0px auto;
+		padding-top: 20px
+	}
+	.ppr{
+		width: 700px;
+		height: 461px;
+		margin: 0px auto;
+		
+	}
+	.pwr{
+		width: 500px;
+		height: 300px;
+		margin: 0px auto;
+
+		
+	}
+	p{
+		font-size: 18px;
+		text-align:center;
+	}
+	.bk{
+		width: 100%;
+		height: 950px;
+		background:#844200;
+		background-image: url(../img/back.png);
+    	background-repeat: repeat;
+	}
+	.titler{
+		font-size: 25px;
+		text-align:center;
+	}
+	.mcr{
+	width: 150px;
+	height: 100px;
+	float:center;
+	margin: 0px auto;
+	
+	}
+	.ph{
+		font-size: 20px;
+		color: #9D9D9D;
+		text-align:center;
+	}
+	.phone{
+		width: 70px;
+		height: 70px;
+		border-radius: 100%;
+		position:  fixed;
+		bottom: 40px;
+		right: 55px;
+		background: #4F4F4F;
+	}
+	.phone:hover{
+		background: #272727;
+	}
+	
+

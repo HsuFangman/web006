@@ -1,0 +1,302 @@
+@charset utf-8;
+html{
+	min-height: 100%;
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	height: 100%;
+	font-family: "蘋果儷中黑", "Apple LiGothic", "Apple LiGothic Medium", "Microsoft JhengHei", "華康童童體","華康墨字體","微軟正黑體", sans-serif;
+}
+.background0{
+	background: #484891;
+	height: 799px;
+	background-image: url(../img/back.png);
+    background-repeat: repeat;
+}
+.background{
+	width: 1280px;
+	height: 640px;
+	background: #FFF0AC;
+	background-image: url(../img/back.png);
+    background-repeat: repeat;
+	position: absolute;
+	top: 80px;
+	left: 150px;
+	margin: 0px auto;
+	box-shadow:1px 1px 30px 3px rgba(0,0,0,0.5);
+}
+.background2{
+	width: 1280px;
+	height: 640px;
+	background: #FFF0AC;
+	background-image: url(../img/back.png);
+    background-repeat: repeat;
+	position: absolute;
+	top: 80px;
+	left: 150px;
+	display: none; 
+}
+.r1{
+	width: 1280px;
+	height: 550px;
+	float:center;
+	margin: 0px auto;
+
+}
+.r1l{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 225px;
+	display: none;
+}
+.r1l-1{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 225px;
+	display: none;
+}
+.r1l-2{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 225px;
+	display: none;
+}
+.next{
+	position: absolute;
+	top: 535px;
+	left: 1050px;
+	display: none;
+	
+}
+.next:hover{
+	left: 1070px;
+}
+.r2{
+	width: 1280px;
+	height: 550px;
+	float:center;
+	margin: 0px auto;
+
+}
+.r2l{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	display: none; 
+	overflow:hidden;
+}
+.r2l-1{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	display: none; 
+	overflow:hidden;
+	
+}
+.r2l-2{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	display: none; 
+	overflow:hidden;
+	
+}
+.r2l-3{
+	width: 978px;
+	height: 550px;
+	float:left;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	display: none; 
+	overflow:hidden;
+	
+}
+
+.r2r{
+	width: 380px;
+	height: 300px;
+	float:right;
+	position: absolute;
+	top: 300px;
+	right: 80px;
+
+}
+.r2w1{
+	font-size: 19px;
+	text-align:left;
+	display: none;
+}
+.r2w2{
+	font-size: 19px;
+	text-align:left;
+	display: none;
+}
+
+.cycle{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	position: absolute;
+	top: 460px;
+	left: 480px;
+
+}
+.cycle:hover{
+	box-shadow:1px 1px 50px 8px rgba(0,0,0,0.9);
+}
+.cycle1{
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	position: absolute;
+	top: 80px;
+	left: 80px;
+
+}
+.cycle1:hover{
+	box-shadow:1px 1px 50px 8px rgba(0,0,0,0.9);
+}
+.cycle2{
+	width: 130px;
+	height: 130px;
+	border-radius: 100%;
+	position: absolute;
+	top: 300px;
+	left: 280px;
+
+}
+.cycle2:hover{
+	box-shadow:1px 1px 50px 8px rgba(0,0,0,0.9);
+}
+.cycle3{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+
+}
+.cycle3:hover{
+	box-shadow:1px 1px 50px 8px rgba(0,0,0,0.9);
+}
+.cycle4{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	position: absolute;
+	top: 180px;
+	left: 600px;
+
+}
+.cycle4:hover{
+	box-shadow:1px 1px 50px 8px rgba(0,0,0,0.9);
+}
+.cycle5{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	position: absolute;
+	top: 350px;
+	left: 500px;
+
+}
+.cycle5:hover{
+	box-shadow:1px 1px 50px 8px rgba(0,0,0,0.9);
+}
+.cycle6{
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+	position: absolute;
+	top: 400px;
+	left: 100px;
+
+}
+.cycle6:hover{
+	box-shadow:1px 1px 50px 8px rgba(0,0,0,0.9);
+}
+.cycle7{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	position: absolute;
+	top: 380px;
+	left: 95px;
+
+}
+.cycle7:hover{
+	box-shadow:1px 1px 50px 8px rgba(0,0,0,0.9);
+}
+.cycle8{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	position: absolute;
+	top: 280px;
+	left: 580px;
+
+}
+.cycle8:hover{
+	box-shadow:1px 1px 50px 8px rgba(0,0,0,0.9);
+}
+.cycle9{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	position: absolute;
+	top: 170px;
+	left: 370px;
+}
+.cycle9:hover{
+	box-shadow:1px 1px 50px 8px rgba(0,0,0,0.9);
+}
+.next2{
+	position: absolute;
+	top: 120px;
+	left: 300px;
+	display: none;
+	
+}
+.next2:hover{
+	left: 320px;
+}
+	.ph{
+	font-size: 20px;
+	color: #9D9D9D;
+	text-align:center;
+	}
+	.phone{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	position: fixed;
+	top: 640px;
+	right: 55px;
+	background: #4F4F4F;
+	}
+	.phone:hover{
+	background: #272727;
+	}
